@@ -108,8 +108,7 @@ final class MovieQuizViewController: UIViewController {
     
     private func changeButtonState(isEnabled: Bool) {
         yesButton.isEnabled = isEnabled
-        noButton.isEnabled = isEnabled
-        print(isEnabled)
+        noButton.isEnabled = isEnabled        
     }
     
     private func showAnswerResult(isCorrect: Bool) {
